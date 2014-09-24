@@ -30,7 +30,7 @@ static const int DATABASE_VERSION = 72100;
 // network protocol versioning
 //
 
-static const int PROTOCOL_VERSION = 72200;
+static const int PROTOCOL_VERSION = 72210;
 
 // intial proto version, to be increased after version/verack negotiation
 static const int INIT_PROTO_VERSION = 72100;

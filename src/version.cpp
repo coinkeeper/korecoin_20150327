@@ -8,7 +8,7 @@
 // Name of client reported in the 'version' message. Report the same name
 // for both bitcoind and bitcoin-qt, to make it harder for attackers to
 // target servers or GUI users specifically.
-const std::string CLIENT_NAME("KoreCoin v2.2 | Eurbids");
+const std::string CLIENT_NAME("KoreCoin v2.2.1 | Eurbids");
 
 // Client version number
 #define CLIENT_VERSION_SUFFIX   ":RELEASE"
@@ -37,7 +37,7 @@ const std::string CLIENT_NAME("KoreCoin v2.2 | Eurbids");
 #define GIT_ARCHIVE 1
 #ifdef GIT_ARCHIVE
 #    define GIT_COMMIT_ID ""
-#    define GIT_COMMIT_DATE "Sat, 02 Aug 2014 23:59:00 GMT"
+#    define GIT_COMMIT_DATE "Wed, 24 Sept 2014 23:59:00 GMT"
 #endif
 
 #define BUILD_DESC_FROM_COMMIT(maj,min,rev,build,commit) \
